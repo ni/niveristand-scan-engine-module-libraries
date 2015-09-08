@@ -4,7 +4,7 @@ These are the LabVIEW classes used inside the Scan Engine Custom Device.
 
 ### LabVIEW Version ###
 
-LabVIEW 2011
+LabVIEW 2015
 
 ### Dependencies ###
 
