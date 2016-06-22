@@ -33,6 +33,9 @@
 		<Item Name="9239.lvclass" Type="LVClass" URL="../9239/9239.lvclass"/>
 		<Item Name="9403.lvclass" Type="LVClass" URL="../9403/9403.lvclass"/>
 		<Item Name="9478.lvclass" Type="LVClass" URL="../9478/9478.lvclass"/>
+		<Item Name="9244.lvclass" Type="LVClass" URL="../9244/9244.lvclass"/>
+		<Item Name="9212.lvclass" Type="LVClass" URL="../9212/9212.lvclass"/>
+		<Item Name="9242.lvclass" Type="LVClass" URL="../9242/9242.lvclass"/>
 	</Item>
 	<Item Name="RSI Module.lvclass" Type="LVClass" URL="../RSI Module/RSI Module.lvclass"/>
 	<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
