@@ -130,6 +130,9 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
+			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PharLap" Type="Packed Library">
@@ -144,7 +147,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action - Remove C Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{340947CB-E0C0-4DFB-9B14-C6B14222715D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">96</Property>
+				<Property Name="Bld_version.build" Type="Int">99</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Modules.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/NI_AB_PROJECTNAME.lvlibp</Property>
@@ -155,7 +158,7 @@
 				<Property Name="Destination[1].path" Type="Path">/c</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{13C5D7AD-8988-45C6-9B02-843282960CA0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{979AE70F-7BE3-4498-856A-7E7C5DAA6F6E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/Modules.lvlib</Property>
