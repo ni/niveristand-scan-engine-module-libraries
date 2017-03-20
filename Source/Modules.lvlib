@@ -45,6 +45,7 @@
 		<Item Name="11175.lvclass" Type="LVClass" URL="../REM-11175/11175.lvclass"/>
 		<Item Name="11178.lvclass" Type="LVClass" URL="../REM-11178/11178.lvclass"/>
 		<Item Name="11120.lvclass" Type="LVClass" URL="../REM-11120/11120.lvclass"/>
+		<Item Name="11100.lvclass" Type="LVClass" URL="../REM-11100/11100.lvclass"/>
 	</Item>
 	<Item Name="RSI Module.lvclass" Type="LVClass" URL="../RSI Module/RSI Module.lvclass"/>
 	<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
