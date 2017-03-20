@@ -38,10 +38,11 @@
 		<Item Name="9242.lvclass" Type="LVClass" URL="../9242/9242.lvclass"/>
 	</Item>
 	<Item Name="Specific RemIO Modules" Type="Folder">
+		<Item Name="11102.lvclass" Type="LVClass" URL="../REM-11102/11102.lvclass"/>
+		<Item Name="11115.lvclass" Type="LVClass" URL="../REM-11115/11115.lvclass"/>
 		<Item Name="11152.lvclass" Type="LVClass" URL="../REM-11152/11152.lvclass"/>
 		<Item Name="11154.lvclass" Type="LVClass" URL="../REM-11154/11154.lvclass"/>
 		<Item Name="11175.lvclass" Type="LVClass" URL="../REM-11175/11175.lvclass"/>
-		<Item Name="11115.lvclass" Type="LVClass" URL="../REM-11115/11115.lvclass"/>
 		<Item Name="11178.lvclass" Type="LVClass" URL="../REM-11178/11178.lvclass"/>
 	</Item>
 	<Item Name="RSI Module.lvclass" Type="LVClass" URL="../RSI Module/RSI Module.lvclass"/>
