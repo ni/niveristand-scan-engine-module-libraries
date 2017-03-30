@@ -149,7 +149,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action - Remove C Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{340947CB-E0C0-4DFB-9B14-C6B14222715D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">113</Property>
+				<Property Name="Bld_version.build" Type="Int">114</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Modules.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/NI_AB_PROJECTNAME.lvlibp</Property>
