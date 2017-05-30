@@ -4,11 +4,11 @@ These are the LabVIEW classes used inside the Scan Engine Custom Device.
 
 ### LabVIEW Version ###
 
-LabVIEW 2015
+LabVIEW 2016
 
 ### Dependencies ###
 
-NI Industrial Communications for EtherCAT
+NI Industrial Communications for EtherCAT 16.1+<br>
 NI RIO
 
 ### License ###
