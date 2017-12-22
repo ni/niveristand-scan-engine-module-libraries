@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Custom Device Source'
-archive_location = '\\us-aus-hilbuild\builds\temp\vs_cds\scan_engine_modules'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\temp\vs_cds\scan_engine_modules'
 
 [projects.pharlap]
 path = 'Source\Modules.lvproj'
