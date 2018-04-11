@@ -15,6 +15,9 @@
 *.aliases
 *.lvlps
 
+# Build directory
+Custom Device Source/
+
 # =========================
 # Operating System Files
 # =========================
