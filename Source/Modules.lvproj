@@ -21,7 +21,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_nicrio_ModuleProperties.vi" Type="VI" URL="../temp/_nicrio_ModuleProperties.vi"/>
 		<Item Name="Post-Build Action - Remove C Dir.vi" Type="VI" URL="../Post-Build Action - Remove C Dir.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
