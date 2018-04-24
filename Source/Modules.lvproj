@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
@@ -21,7 +21,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_nicrio_ModuleProperties.vi" Type="VI" URL="../temp/_nicrio_ModuleProperties.vi"/>
 		<Item Name="Post-Build Action - Remove C Dir.vi" Type="VI" URL="../Post-Build Action - Remove C Dir.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -131,9 +130,7 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
-			</Item>
-			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+				<Item Name="negative confirmation.ctl" Type="VI" URL="/&lt;vilib&gt;/indcomecat/Remote IO/typedefs/negative confirmation.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
