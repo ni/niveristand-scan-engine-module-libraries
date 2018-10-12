@@ -132,6 +132,9 @@
 				<Item Name="NI ECAT Remote IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/indcomecat/Remote IO/NI ECAT Remote IO.lvlib"/>
 				<Item Name="negative confirmation.ctl" Type="VI" URL="/&lt;vilib&gt;/indcomecat/Remote IO/typedefs/negative confirmation.ctl"/>
 			</Item>
+			<Item Name="nNIBlueBus_nCrioFixed_nRefnum.dll" Type="Document" URL="nNIBlueBus_nCrioFixed_nRefnum.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PharLap" Type="Packed Library">
