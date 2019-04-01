@@ -2,42 +2,11 @@
 build_output_dir = 'Custom Device Source'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
 
-[projects.pharlap]
+[projects.modules]
 path = 'Source\Modules.lvproj'
 
-[projects.vxworks]
-path = 'Source\Modules - VxWorks.lvproj'
-
-[projects.linux64]
-path = 'Source\Modules - Linux.lvproj'
-
-[projects.linux32]
-path = 'Source\Modules - Linux32.lvproj'
-
 [[build.steps]]
-name = 'Pharlap Scan Engine Module Library'
-type = 'lvBuildAll'
-project = '{pharlap}'
-output_libraries = ['Modules.lvlibp']
-output_dir = 'pharlap'
-
-[[build.steps]]
-name = 'VxWorks Scan Engine Module Library'
-type = 'lvBuildAll'
-project = '{vxworks}'
-output_libraries = ['Modules.lvlibp']
-output_dir = 'vxworks'
-
-[[build.steps]]
-name = 'Linux x64 Scan Engine Module Library'
-type = 'lvBuildAll'
-project = '{linux64}'
-output_libraries = ['Modules.lvlibp']
-output_dir = 'linux64'
-
-[[build.steps]]
-name = 'Linux x86 Scan Engine Module Library'
-type = 'lvBuildAll'
-project = '{linux32}'
-output_libraries = ['Modules.lvlibp']
-output_dir = 'linux32'
+name = 'Scan Engine Module Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{modules}'
+build_spec = 'Modules'
