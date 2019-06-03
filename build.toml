@@ -1,5 +1,5 @@
 [archive]
-build_output_dir = 'Custom Device Source'
+build_output_dir = 'Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
 
 [projects.modules]
