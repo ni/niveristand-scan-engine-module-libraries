@@ -1,6 +1,6 @@
 # NI VeriStand Scan Engine Module Libraries
 
-Support for different modules in the Scan Engine Custom Device.
+Support for different modules in the [Scan Engine Custom Device](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device).
 
 ## LabVIEW Version
 
@@ -8,8 +8,8 @@ LabVIEW 2017
 
 ## Dependencies
 
-NI Industrial Communications for EtherCAT 17.6+<br>
-NI RIO
+- NI CompactRIO
+- NI-Industrial Communications for EtherCAT 17.6+<br>
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
