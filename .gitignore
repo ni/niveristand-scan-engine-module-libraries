@@ -16,7 +16,7 @@
 *.lvlps
 
 # Build directory
-Custom Device Source/
+Built/
 
 # =========================
 # Operating System Files
