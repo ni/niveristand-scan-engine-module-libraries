@@ -54,4 +54,7 @@
 	<Item Name="Get RemIO VI Reference.vim" Type="VI" URL="../RemIO Module/Get RemIO VI Reference.vim">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Get RemIO Library Path.vi" Type="VI" URL="../RemIO Module/Get RemIO Library Path.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
