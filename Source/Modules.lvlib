@@ -51,4 +51,7 @@
 	<Item Name="RSI Module.lvclass" Type="LVClass" URL="../RSI Module/RSI Module.lvclass"/>
 	<Item Name="Init Module.vi" Type="VI" URL="../Init Module.vi"/>
 	<Item Name="RemIO Module.lvclass" Type="LVClass" URL="../RemIO Module/RemIO Module.lvclass"/>
+	<Item Name="Get RemIO VI Reference.vim" Type="VI" URL="../RemIO Module/Get RemIO VI Reference.vim">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
