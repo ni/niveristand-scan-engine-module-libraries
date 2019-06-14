@@ -10,3 +10,9 @@ name = 'Scan Engine Module Libraries'
 type = 'lvBuildSpecAllTargets'
 project = '{modules}'
 build_spec = 'Modules'
+
+[[build.steps]]
+name = 'Scan Engine Remote IO Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{modules}'
+build_spec = 'NI ECAT Remote IO'
