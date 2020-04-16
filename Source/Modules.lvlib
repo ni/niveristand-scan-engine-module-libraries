@@ -25,6 +25,7 @@
 		<Item Name="9211.lvclass" Type="LVClass" URL="../9211/9211.lvclass"/>
 		<Item Name="9213.lvclass" Type="LVClass" URL="../9213/9213.lvclass"/>
 		<Item Name="9214.lvclass" Type="LVClass" URL="../9214/9214.lvclass"/>
+		<Item Name="9216.lvclass" Type="LVClass" URL="../9216/9216.lvclass"/>
 		<Item Name="9217.lvclass" Type="LVClass" URL="../9217/9217.lvclass"/>
 		<Item Name="9219.lvclass" Type="LVClass" URL="../9219/9219.lvclass"/>
 		<Item Name="9224.lvclass" Type="LVClass" URL="../9224/9224.lvclass"/>
