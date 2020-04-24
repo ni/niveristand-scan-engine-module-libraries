@@ -22,25 +22,28 @@
 		<Item Name="9205.lvclass" Type="LVClass" URL="../9205/9205.lvclass"/>
 		<Item Name="9207.lvclass" Type="LVClass" URL="../9207/9207.lvclass"/>
 		<Item Name="9209.lvclass" Type="LVClass" URL="../9209/9209.lvclass"/>
+		<Item Name="9210.lvclass" Type="LVClass" URL="../9210/9210.lvclass"/>
 		<Item Name="9211.lvclass" Type="LVClass" URL="../9211/9211.lvclass"/>
+		<Item Name="9212.lvclass" Type="LVClass" URL="../9212/9212.lvclass"/>
 		<Item Name="9213.lvclass" Type="LVClass" URL="../9213/9213.lvclass"/>
 		<Item Name="9214.lvclass" Type="LVClass" URL="../9214/9214.lvclass"/>
 		<Item Name="9216.lvclass" Type="LVClass" URL="../9216/9216.lvclass"/>
 		<Item Name="9217.lvclass" Type="LVClass" URL="../9217/9217.lvclass"/>
 		<Item Name="9219.lvclass" Type="LVClass" URL="../9219/9219.lvclass"/>
 		<Item Name="9224.lvclass" Type="LVClass" URL="../9224/9224.lvclass"/>
+		<Item Name="9226.lvclass" Type="LVClass" URL="../9226/9226.lvclass"/>
 		<Item Name="9229.lvclass" Type="LVClass" URL="../9229/9229.lvclass"/>
 		<Item Name="9233.lvclass" Type="LVClass" URL="../9233/9233.lvclass"/>
 		<Item Name="9234.lvclass" Type="LVClass" URL="../9234/9234.lvclass"/>
 		<Item Name="9235.lvclass" Type="LVClass" URL="../9235/9235.lvclass"/>
 		<Item Name="9237.lvclass" Type="LVClass" URL="../9237/9237.lvclass"/>
 		<Item Name="9239.lvclass" Type="LVClass" URL="../9239/9239.lvclass"/>
+		<Item Name="9242.lvclass" Type="LVClass" URL="../9242/9242.lvclass"/>
+		<Item Name="9244.lvclass" Type="LVClass" URL="../9244/9244.lvclass"/>
+		<Item Name="9253.lvclass" Type="LVClass" URL="../9253/9253.lvclass"/>
 		<Item Name="9350.lvclass" Type="LVClass" URL="../9350/9350.lvclass"/>
 		<Item Name="9403.lvclass" Type="LVClass" URL="../9403/9403.lvclass"/>
 		<Item Name="9478.lvclass" Type="LVClass" URL="../9478/9478.lvclass"/>
-		<Item Name="9244.lvclass" Type="LVClass" URL="../9244/9244.lvclass"/>
-		<Item Name="9212.lvclass" Type="LVClass" URL="../9212/9212.lvclass"/>
-		<Item Name="9242.lvclass" Type="LVClass" URL="../9242/9242.lvclass"/>
 	</Item>
 	<Item Name="Specific RemIO Modules" Type="Folder">
 		<Item Name="11102.lvclass" Type="LVClass" URL="../REM-11102/11102.lvclass"/>
