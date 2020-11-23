@@ -16,3 +16,6 @@ name = 'Scan Engine Remote IO Libraries'
 type = 'lvBuildSpecAllTargets'
 project = '{modules}'
 build_spec = 'NI ECAT Remote IO'
+
+[notification]
+type = 'teams'
