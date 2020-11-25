@@ -13,7 +13,7 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-See the [documentation](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device/blob/master/docs/Adding%20New%20Modules.md) in the [niveristand-scan-engine-ethercat-custom-device repository](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device) for information on adding module support. Changes need to be implemented in both repositories.
+See the [documentation](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device/blob/main/docs/Adding%20New%20Modules.md) in the [niveristand-scan-engine-ethercat-custom-device repository](https://github.com/ni/niveristand-scan-engine-ethercat-custom-device) for information on adding module support. Changes need to be implemented in both repositories.
 
 # Testing
 
@@ -49,5 +49,5 @@ After implementing new module support, the functionality should be tested on a c
 
 (taken from [developercertificate.org](https://developercertificate.org/))
 
-See [LICENSE](https://github.com/ni/niveristand-scan-engine-module-libraries/blob/master/LICENSE)
+See [LICENSE](https://github.com/ni/niveristand-scan-engine-module-libraries/blob/main/LICENSE)
 for details about how niveristand-scan-engine-module-libraries is licensed.
