@@ -7,15 +7,35 @@ path = 'Source\Modules.lvproj'
 
 [[build.steps]]
 name = 'Scan Engine Module Libraries'
-type = 'lvBuildSpecAllTargets'
+type = 'lvBuildSpec'
 project = '{modules}'
+target = 'My Computer'
 build_spec = 'Modules'
+bitness = '64'
+
+[[build.steps]]
+name = 'Scan Engine Module Libraries'
+type = 'lvBuildSpec'
+project = '{modules}'
+target = 'Linux x64'
+build_spec = 'Modules'
+bitness = '32'
 
 [[build.steps]]
 name = 'Scan Engine Remote IO Libraries'
-type = 'lvBuildSpecAllTargets'
+type = 'lvBuildSpec'
 project = '{modules}'
+target = 'My Computer'
 build_spec = 'NI ECAT Remote IO'
+bitness = '64'
+
+[[build.steps]]
+name = 'Scan Engine Remote IO Libraries'
+type = 'lvBuildSpec'
+project = '{modules}'
+target = 'Linux x64'
+build_spec = 'NI ECAT Remote IO'
+bitness = '32'
 
 [notification]
 type = 'teams'
