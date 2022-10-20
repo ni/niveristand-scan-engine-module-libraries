@@ -3,8 +3,8 @@
 @Library('vs-build-tools') _
 
 def lvVersions = [
-  32 : ['2019', '2020', '2021'],
-  64 : ['2021']
+  32 : ['2019', '2020', '2021', '2023'],
+  64 : ['2021', '2023']
 ]
 
 ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions)
