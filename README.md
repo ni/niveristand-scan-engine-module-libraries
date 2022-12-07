@@ -6,12 +6,12 @@ If installing the **Scan Engine Custom Device** from a [released package](https:
 
 ## LabVIEW Version
 
-LabVIEW 2019
+LabVIEW 2020
 
 ## Dependencies
 
 - [NI CompactRIO](http://www.ni.com/en-us/support/downloads/drivers/download.ni-compactrio.html)
-- [NI-Industrial Communications for EtherCAT](https://www.ni.com/en-us/support/downloads/drivers/download.ni-industrial-communications-for-ethercat.html) 17.6+
+- [NI-Industrial Communications for EtherCAT](https://www.ni.com/en-us/support/downloads/drivers/download.ni-industrial-communications-for-ethercat.html)
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
