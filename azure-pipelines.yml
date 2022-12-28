@@ -75,3 +75,4 @@ stages:
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_modules'
       pack: false
+      packages: none
