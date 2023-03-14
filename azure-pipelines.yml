@@ -72,4 +72,4 @@ stages:
 
       releaseVersion: '23.3.0'
       buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\scan_engine_modules'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
