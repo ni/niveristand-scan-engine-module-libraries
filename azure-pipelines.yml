@@ -18,12 +18,6 @@ stages:
     parameters:
 
       lvVersionsToBuild:
-        - version: '2020'
-          bitness: '32bit'
-        - version: '2021'
-          bitness: '32bit'
-        - version: '2021'
-          bitness: '64bit'
         - version: '2023'
           bitness: '32bit'
         - version: '2023'
