@@ -26,6 +26,10 @@ stages:
           bitness: '32bit'
         - version: '2023'
           bitness: '64bit'
+        - version: '2024'
+          bitness: '32bit'
+        - version: '2024'
+          bitness: '64bit'
 
       buildSteps:
         - projectLocation: 'Source\Modules.lvproj'
@@ -37,6 +41,8 @@ stages:
               bitness: '32bit'
             - version: '2023'
               bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -46,6 +52,8 @@ stages:
             - version: '2021'
               bitness: '64bit'
             - version: '2023'
+              bitness: '64bit'
+            - version: '2024'
               bitness: '64bit'
 
         - projectLocation: 'Source\Modules.lvproj'
@@ -57,6 +65,8 @@ stages:
               bitness: '32bit'
             - version: '2023'
               bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -66,6 +76,8 @@ stages:
             - version: '2021'
               bitness: '64bit'
             - version: '2023'
+              bitness: '64bit'
+            - version: '2024'
               bitness: '64bit'
 
       releaseVersion: '24.0.0'
