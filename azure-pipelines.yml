@@ -80,6 +80,6 @@ stages:
             - version: '2024'
               bitness: '64bit'
 
-      releaseVersion: '24.0.0'
+      releaseVersion: '24.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
