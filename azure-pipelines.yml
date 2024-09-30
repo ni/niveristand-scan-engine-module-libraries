@@ -18,10 +18,6 @@ stages:
     parameters:
 
       lvVersionsToBuild:
-        - version: '2021'
-          bitness: '32bit'
-        - version: '2021'
-          bitness: '64bit'
         - version: '2023'
           bitness: '32bit'
         - version: '2023'
@@ -29,6 +25,10 @@ stages:
         - version: '2024'
           bitness: '32bit'
         - version: '2024'
+          bitness: '64bit'
+        - version: '2025'
+          bitness: '32bit'
+        - version: '2025'
           bitness: '64bit'
 
       buildSteps:
@@ -37,11 +37,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'Modules'
           exclusions:
-            - version: '2021'
-              bitness: '32bit'
             - version: '2023'
               bitness: '32bit'
             - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
               bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
@@ -49,11 +49,11 @@ stages:
           target: 'Linux x64'
           buildSpec: 'Modules'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
+              bitness: '64bit'
+            - version: '2025'
               bitness: '64bit'
 
         - projectLocation: 'Source\Modules.lvproj'
@@ -61,11 +61,11 @@ stages:
           target: 'My Computer'
           buildSpec: 'NI ECAT Remote IO'
           exclusions:
-            - version: '2021'
-              bitness: '32bit'
             - version: '2023'
               bitness: '32bit'
             - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
               bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
@@ -73,13 +73,13 @@ stages:
           target: 'Linux x64'
           buildSpec: 'NI ECAT Remote IO'
           exclusions:
-            - version: '2021'
-              bitness: '64bit'
             - version: '2023'
               bitness: '64bit'
             - version: '2024'
               bitness: '64bit'
+            - version: '2025'
+              bitness: '64bit'
 
-      releaseVersion: '24.5.0'
+      releaseVersion: '25.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
