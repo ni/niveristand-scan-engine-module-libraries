@@ -19,9 +19,15 @@ stages:
 
       lvVersionsToBuild:
         - version: '2023'
+          bitness: '32bit'
+        - version: '2023'
           bitness: '64bit'
         - version: '2024'
+          bitness: '32bit'
+        - version: '2024'
           bitness: '64bit'
+        - version: '2025'
+          bitness: '32bit'
         - version: '2025'
           bitness: '64bit'
 
@@ -30,6 +36,13 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Modules'
+          exclusions:
+            - version: '2023'
+              bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
+              bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -47,6 +60,13 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'NI ECAT Remote IO'
+          exclusions:
+            - version: '2023'
+              bitness: '32bit'
+            - version: '2024'
+              bitness: '32bit'
+            - version: '2025'
+              bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
           buildOperation: 'ExecuteBuildSpec'
