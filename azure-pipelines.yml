@@ -18,11 +18,11 @@ stages:
     parameters:
 
       lvVersionsToBuild:
-        - version: '2023'
-          bitness: '64bit'
         - version: '2024'
           bitness: '64bit'
         - version: '2025'
+          bitness: '64bit'
+        - version: '2026'
           bitness: '64bit'
 
       buildSteps:
@@ -36,11 +36,11 @@ stages:
           target: 'Linux x64'
           buildSpec: 'Modules'
           exclusions:
-            - version: '2023'
-              bitness: '64bit'
             - version: '2024'
               bitness: '64bit'
             - version: '2025'
+              bitness: '64bit'
+            - version: '2026'
               bitness: '64bit'
 
         - projectLocation: 'Source\Modules.lvproj'
@@ -53,13 +53,13 @@ stages:
           target: 'Linux x64'
           buildSpec: 'NI ECAT Remote IO'
           exclusions:
-            - version: '2023'
-              bitness: '64bit'
             - version: '2024'
               bitness: '64bit'
             - version: '2025'
               bitness: '64bit'
+            - version: '2026'
+              bitness: '64bit'
 
-      releaseVersion: '25.0.0'
+      releaseVersion: '26.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
