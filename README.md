@@ -6,7 +6,7 @@ If installing the **Scan Engine Custom Device** from a [released package](https:
 
 ## LabVIEW Version
 
-LabVIEW 2020
+LabVIEW 2024
 
 ## Dependencies
 
