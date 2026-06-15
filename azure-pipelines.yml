@@ -83,3 +83,5 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
+      repoName: 'niveristand-scan-engine-module-libraries'
+      createNetCoreRepo: true
