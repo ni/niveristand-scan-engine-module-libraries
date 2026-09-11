@@ -30,6 +30,10 @@ stages:
           bitness: '32bit'
         - version: '2026'
           bitness: '64bit'
+        - version: '2027'
+          bitness: '32bit'
+        - version: '2027'
+          bitness: '64bit'
 
       buildSteps:
         - projectLocation: 'Source\Modules.lvproj'
@@ -43,6 +47,8 @@ stages:
               bitness: '32bit'
             - version: '2026'
               bitness: '32bit'
+            - version: '2027'
+              bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -54,6 +60,8 @@ stages:
             - version: '2025'
               bitness: '64bit'
             - version: '2026'
+              bitness: '64bit'
+            - version: '2027'
               bitness: '64bit'
 
         - projectLocation: 'Source\Modules.lvproj'
@@ -67,6 +75,8 @@ stages:
               bitness: '32bit'
             - version: '2026'
               bitness: '32bit'
+            - version: '2027'
+              bitness: '32bit'
 
         - projectLocation: 'Source\Modules.lvproj'
           buildOperation: 'ExecuteBuildSpec'
@@ -79,8 +89,10 @@ stages:
               bitness: '64bit'
             - version: '2026'
               bitness: '64bit'
+            - version: '2027'
+              bitness: '64bit'
 
-      releaseVersion: '26.5.0'
+      releaseVersion: '26.8.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\scan_engine_modules'
       repoName: 'niveristand-scan-engine-module-libraries'
